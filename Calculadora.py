@@ -6,6 +6,9 @@ def Subtracao(num1, num2):
 
 def Multiplicacao(num1, num2):
         return num1 * num2
+        
+def Divisao(num1, num2):
+        return num1 / num2
 
 
 def Main():
