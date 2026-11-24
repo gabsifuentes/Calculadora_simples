@@ -8,8 +8,9 @@ def Multiplicacao(num1, num2):
         return num1 * num2
         
 def Divisao(num1, num2):
+        if num2 == 0:
+               return "Erro: Divisão por zero"
         return num1 / num2
-
 
 def Main():
     num1 = int(input("Digite o primeiro número: "))
